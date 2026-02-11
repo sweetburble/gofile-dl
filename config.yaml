@@ -1,0 +1,31 @@
+# 다운로드할 URL (단일 링크일 경우)
+# 목록 파일(input.txt)을 사용할 경우 이 항목을 비워두거나 주석 처리하세요.
+url: "https://gofile.io/d/ICAL6B"
+
+# 로컬 파일에서 URL 목록을 읽어올 경우 파일 경로 (예: ./input.txt, null)
+# url과 file_input이 둘 다 있으면 file_input이 우선순위를 가집니다.
+file_input: null
+
+# 출력 디렉터리
+output_dir: "D:/실사/temp"
+
+# 동시 다운로드 스레드 수
+num_threads: 4
+
+# 비밀번호 (필요한 경우)
+password: enjoy
+
+# 프록시 서버 (예: 127.0.0.1:8080)
+proxy: null
+
+# 포함할 파일 패턴 (리스트 형태)
+includes:
+    # - "*.png"
+    # - "*.jpg"
+
+# 제외할 파일 패턴 (리스트 형태)
+excludes:
+    - "*.txt"
+    - "*.ini"
+    - "*.jpg"
+    - "*.png"

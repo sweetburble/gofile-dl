@@ -131,3 +131,4 @@ dmypy.json
 .sqlite
 # output dir
 output/
+uv.lock
